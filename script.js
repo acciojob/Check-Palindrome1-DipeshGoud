@@ -4,6 +4,7 @@ function palindrome(str){
 
 	let i=0;
 	let j=str.length-1;
+	str = str.toLowerCase();
 	while(i<=j){
 		while(str[i]===" ") {
 			i++;
