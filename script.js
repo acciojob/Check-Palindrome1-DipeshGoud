@@ -5,7 +5,7 @@ function palindrome(str){
 	let i=0;
 	let j=str.length-1;
 	while(i<=j){
-		if (strs[i]===" ") {
+		if (str[i]===" ") {
 			i++;
 		}
 		if (str[j]===" ") {
